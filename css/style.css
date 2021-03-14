@@ -1,0 +1,85 @@
+/*COLOURS 
+
+#7EBBE6
+#385366
+#C7DBEA
+#576066
+#6291b3*/
+
+body {
+    max-width: 45rem;
+    margin: auto;
+}
+
+.box {
+    margin: auto;
+    background-color: #C7DBEA;
+    padding: 5rem 4rem 1rem;;
+    display: block;
+    margin: 0 auto;
+}
+
+img {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+h1 {
+    font-family: 'Ranchers', cursive;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#button {
+    background-color: #576066;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    
+}
+
+#button:hover {
+    border-style: none;
+}
+
+#content {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+}
+
+#list {
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: square;
+}
+
+#feedback {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.b-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #576066;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Ranchers', cursive;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+a:hover {
+    opacity: 40%;
+}
